@@ -38,7 +38,7 @@ function setup() {
 
 
 
-	packageBody = Bodies.rectangle(400,200 , 200 , 5 , {restitution:0.8, isStatic:true});
+	packageBody = Bodies.rectangle(400,200 , 5 , 5 , {restitution:0.8, isStatic:true});
 	World.add(world, packageBody);
 
 	
